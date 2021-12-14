@@ -123,6 +123,7 @@ body{
     height: 200px;
     width:200px;
     flex-basis:25%;
+    transition: cubic-bezier(0, 0.95, 0.49, 0.65) 0.8s;
 }
 span{
     font-family: 'Playfair Display', serif;
@@ -198,4 +199,11 @@ span{
 .fab{
     font-size:30px;
     color:#fff;
+}
+/* focus image */
+#certificate{
+    transition: cubic-bezier(0, 0.95, 0.49, 0.65) 0.8s;
+}
+.focus{
+    transform: scale(2);
 }

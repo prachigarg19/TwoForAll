@@ -20,7 +20,7 @@ email.addEventListener('blur',()=>{
   btn.addEventListener('click',(e)=>{
       let newpassword=document.getElementById('spassword');
       let confirmpassword=document.getElementById('cpassword');
-      if(newpassword===confirmpassword)
+      if(newpassword.value===confirmpassword.value)
       { 
         newpassword.classList.remove('is-invalid');
       }
