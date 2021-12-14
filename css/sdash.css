@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@900&family=Playfair+Display&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=PT+Sans&family=Playfair+Display&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=PT+Sans&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=PT+Sans&family=Playfair+Display&family=Prompt:wght@100&display=swap');
@@ -51,31 +51,65 @@ body{
     color:black;
 }
 
-/* below navbar */
-.container{
+/* post request */
+.wrap{
+    
+     display: flex;
+    justify-content: center;
+}
+.below-container{
+    
+    margin-top: 3rem;
+    background-color: #fff;
+    border-radius:50px;
+}
+.post-request{
+    min-width:360px;
+    width:80vw;
     display:flex;
     flex-direction: column;
-    /* background-color: #93B5C6; */
-    width:100%;
-    align-items: center;
+
 }
-.dropdown{
+.work-requirement{
     display:flex;
-    justify-content: end;
-
+    flex-direction: row;
+    gap:3rem;
+    font-style:'';
+    width:100%;
+    padding:3rem;
+}
+.lower-postrequest-container{
+    display:flex;
+    flex-direction: column;
+    padding:3rem;
+    column-gap: 2rem;
+}
+.input-group{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+}
+#post{
+    background-color: white;
+    border:2px solid #93B5C6;
+    font-size:1.2rem;
+    width:9rem;
+}
+#post:hover{
+    background-color:#93B5C6;
 }
 
-.welcome-container h3{
-    font-size: 7rem;
-    font-family: 'Amatic SC', cursive;
-}
-/* filter button */
-.btn{
-    font-family: 'Open Sans', sans-serif;
-    border: 2px solid white;
-}
 
 /***cards**/
+.display-posts{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:5rem;
+}
+.display-posts h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;; 
+}
 .cards{
     display:flex;
     flex-direction: row;
@@ -108,15 +142,3 @@ body{
     font-weight: 800;
 }
 
-#view-more{
-    display: flex;
-    justify-content: end;
-    font-family: 'Amatic SC', cursive;
-    margin-right: 2rem;
-}
-#view-more a{
-    text-decoration: none;
-    color:black;
-    font-size:2rem;
-    font-weight: 900;
-}
