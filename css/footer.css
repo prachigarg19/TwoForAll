@@ -1,0 +1,42 @@
+/* footer */
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:7rem;
+    background-color: #526b77;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    margin-left:3rem;
+}
+.left-footer img{
+    height:170px;
+    width:170px;
+}
+.right-footer{
+    margin-right:3rem;
+}
+.social{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+   }
+   .fa-instagram:hover{
+    color: #ca3bab;
+  }
+  
+.fa-facebook:hover{
+    color: #3b5998;
+  }
+.fa-twitter:hover{
+    color: #1DA1F2;
+  }
+  
+.fab{
+    font-size:30px;
+    color:#fff;
+}
