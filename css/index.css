@@ -62,8 +62,7 @@ body{
     width:90%;
     flex-wrap: wrap;
     margin:5rem;
-    /* background-color: white; */
-    height:auto;
+      height:auto;
 }
 .left-mid-container{
     flex-basis:45%;

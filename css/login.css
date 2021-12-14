@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=PT+Sans&family=Playfair+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=PT+Sans&family=Playfair+Display&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.login-container{
+    display: flex;
+     min-width:360px;
+    width:90%;
+    flex-wrap: wrap;
+    margin:5rem;
+      height:auto;
+      border:10px solid #93B5C6;
+      border-radius: 40px;
+}
+.left-login-container{
+    flex-basis:45%;
+    
+}
+.left-login-container img{
+    width:100%;
+    height:600px;
+    border-radius: 50px 0 0 50px;
+}
+.right-login-container{
+    background-color: #93B5C6;
+    flex-basis: 55%;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+   width:100%;
+   font-family: 'Amatic SC', cursive;
+   border-radius: 0 50px 50x 0;
+}
+.content-mid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:3rem;
+}
+.content-mid-container h3{
+    font-size: 4rem;
+    font-weight:900;
+}
+
+/* loginbutton */
+.sign-up{
+    background-color: #93B5C6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding:0.7em;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    font-size:1.2rem;
+    margin-top:3rem;
+}
+form{
+    font-size:1.5rem;
+    font-weight: 900;
+}
+.sign-up:hover{
+    background-color: white;
+}
