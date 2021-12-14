@@ -25,6 +25,7 @@
     flex-direction: row;
     gap:2rem;
    }
+
    .fa-instagram:hover{
     color: #ca3bab;
   }
@@ -38,5 +39,11 @@
   
 .fab{
     font-size:30px;
-    color:#fff;
+    color:black;
+}
+.number{
+    display:flex;
+    font-size:1.2rem;
+    gap:1rem;
+    justify-content: center;
 }
