@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=PT+Sans&family=Playfair+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=PT+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=PT+Sans&family=Playfair+Display&family=Prompt:wght@100&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #93B5C6 !important;
+}
+/* navbar */
+.nav-outer-container{
+    display: flex;
+    /* max-width: 1250px; */
+    width:100%;
+    min-width:360px;
+    justify-content: space-between;
+    background-color: #93B5C6;
+}
+.nav-left img{
+    height:70px;
+    width:70px;
+    margin:1rem 0 0 2rem;
+}
+
+.sign-up{
+    background-color: #93B5C6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding:0.5em;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+}
+#login{
+    margin: 1rem 2rem 0 0;
+    width:5em;
+    font-size:1.3rem;
+}
+.sign-up:hover{
+    background-color: white;
+}
+.fa-user-circle{
+    font-size:2rem;
+    margin-right:2rem;
+    color: white;
+}
+.fa-user-circle:hover{
+    color:black;
+}
+
+/* below navbar */
+.container{
+    display:flex;
+    flex-direction: column;
+    /* background-color: #93B5C6; */
+    width:100%;
+    align-items: center;
+}
+.dropdown{
+    display:flex;
+    justify-content: end;
+
+}
+
+.welcome-container h3{
+    font-size: 7rem;
+    font-family: 'Amatic SC', cursive;
+}
+/* filter button */
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+}
+
+/***cards**/
+.cards{
+    display:flex;
+    flex-direction: row;
+    margin-top:2rem;
+    min-width: 360px;
+    width:70vw;
+    background-color:white;
+    border-radius: 50px;
+}
+.card-logo {
+    flex-basis:20%;
+    padding:2rem;
+}
+.card-details{
+    flex-basis:80%;
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+}
+.card-details h3{
+    font-family: 'Playfair Display', serif; 
+}
+.card-details h4{
+    display: flex;
+    gap:1rem;
+}
+.card-details span{
+    font-size: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+}
+.card-details p{
+
+}
+#view-more{
+    display: flex;
+    justify-content: end;
+    font-family: 'Amatic SC', cursive;
+    margin-right: 2rem;
+}
+#view-more a{
+    text-decoration: none;
+    color:black;
+    font-size:2rem;
+    font-weight: 900;
+}
