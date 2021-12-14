@@ -141,4 +141,6 @@ body{
     font-family: 'Prompt', sans-serif;
     font-weight: 800;
 }
-
+.fas:hover{
+    color:#93B5C6;
+}
