@@ -1,3 +1,4 @@
+//database of ngo's
 shelters=[
     {
         name:'Animal Aid Unlimited',
@@ -67,8 +68,9 @@ shelters=[
 ];
 console.log('hello');
 list=document.getElementsByClassName('dropdown-list')
-console.log(list);
 
+
+//compares area entered by user with all ngo's in database
 Array.from(list).forEach(item=>{
     item.addEventListener('click',(e)=>{
         display(e.target.id);
@@ -76,6 +78,7 @@ Array.from(list).forEach(item=>{
     
 })
 
+//displaying all cards that matches area 
 function display(id){
     card=document.getElementById('cards');
     card.innerHTML="";

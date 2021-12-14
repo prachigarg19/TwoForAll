@@ -1,10 +1,14 @@
 
 work=['Groomer','CareTaker',]
 let btn=document.getElementById('post');
+//will store all the values entered by user
 workobj=['Care Taker'];
 
 let div=document.querySelector('.posts');
+//display cards after website loads
 displayPreviousCards();
+
+//display cards
 function displayPreviousCards(){
     
     div.innerHTML="";
@@ -49,7 +53,7 @@ function displayPreviousCards(){
     );
     }
 
-
+    //store value entered by user and store it in array
     btn.addEventListener('click',()=>{
         work=document.getElementById('work');
         if(work.value=="")
@@ -60,11 +64,13 @@ function displayPreviousCards(){
           displayPreviousCards();
     });
 
+    //delete card
     function deleteCards(id){
         index=id;
         workobj.splice(index,1);
         displayPreviousCards();
     }
+    //edits card
     function updateCards(id){
         index=id;
         
