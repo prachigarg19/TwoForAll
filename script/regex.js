@@ -16,21 +16,19 @@ email.addEventListener('blur',()=>{
    });
 
   //validation for sign up email
-  btn=document.getElementById('signbtn');
-  btn.addEventListener('click',(e)=>{
-      e.preventDefault();
-      let newpassword=document.getElementById('spassword');
-      let confirmpassword=document.getElementById('cpassword');
-      if(newpassword.value===confirmpassword.value)
-      { 
-        newpassword.classList.remove('is-invalid');
-      }
-      else{
-          e.preventDefault();
-        newpassword.classList.add('is-invalid');
-      }
-  })
+//   btn=document.getElementById('signbtn');
+//   btn.addEventListener('click',(e)=>{
+//     //   e.preventDefault();
+//       let newpassword=document.getElementById('spassword');
+//       let confirmpassword=document.getElementById('cpassword');
+//       if(newpassword.value===confirmpassword.value)
+//       { 
+//         newpassword.classList.remove('is-invalid');
+//       }
+//       else{
+//           e.preventDefault();
+//         newpassword.classList.add('is-invalid');
+//       }
+//   })
 
-  btn2=document.getElementById('login').addEventListener('click',(e)=>{
-      e.preventDefault();
-  })
+//  

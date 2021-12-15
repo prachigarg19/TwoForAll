@@ -28,15 +28,15 @@
                             Your email must be a valid email
                           </small>
                           <label for="password">Password</label>
-                <input type="password" class="form-control" id="spassword" placeholder="Enter your password">
+                <input type="text is-invalid" class="form-control" id="spassword" placeholder="Enter your password">
                 
                 <small id="passvalid" class="form-text text-muted invalid-feedback">
                     
                     Password Does not match
                   </small>
                   <label for="password">Confirm Password</label>
-                <input type="password" class="form-control" id="cpassword" placeholder="Enter your password">
-            </div> <button id="signbtn" class="sign-up" ><a href="../html/vdash.html">Log-In</a></button>
+                <input type="text is-invalid" class="form-control" id="cpassword" placeholder="Enter your password">
+            </div> <button id="signbtn" class="sign-up" onclick="location.href='../html/vdash.html'"  >Sign Up</button>
             
             </div>
                   
@@ -66,5 +66,9 @@
         </footer>
     <script src='../script/login.js'> </script>
     <script src="../script/regex.js"></script>
+    <script>
+        document.getElementById('signbtn').addEventListener('click',(e)=>{e.preventDefault();})
+  
+    </script>
 </body>
 </html>

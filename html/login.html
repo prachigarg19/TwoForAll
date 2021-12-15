@@ -30,7 +30,7 @@
                
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" placeholder="Enter your password">
-            </div> <button id="login" class="sign-up" ><a href="../html/vdash.html">Log-In</a></button>
+            </div> <button id="login" class="sign-up" onclick="location.href='../html/vdash.html'">Log-In</button>
             
             </div>
               </form>
@@ -57,5 +57,10 @@
         </footer>
     
     <script src="../script/regex.js"></script>
+    <script>
+        btn2=document.getElementById('login').addEventListener('click',(e)=>{
+    e.preventDefault();
+     })
+    </script>
 </body>
 </html>
