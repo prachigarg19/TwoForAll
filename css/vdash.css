@@ -120,3 +120,18 @@ body{
     font-size:2rem;
     font-weight: 900;
 }
+/* /interested part */
+.interest{
+    width:10rem;
+    background-color: white;
+    border:2px solid black;
+}
+.interest:hover{
+    border:2px solid black;
+    background-color: #93B5C6;
+}
+#interested-heading{
+    font-family: 'Amatic SC', cursive;
+    font-size:2rem;
+    font-weight:900;
+}
