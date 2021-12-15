@@ -20,3 +20,21 @@ function focusImg(){
 
 // adding focus to certificate
 document.getElementById('certificate').addEventListener('click',focusImg);
+
+//posting comment.
+div=document.getElementById("posted-review");
+let text=document.getElementById('text');
+let btn=document.getElementById('post');
+
+btn.addEventListener('click',(e)=>{
+  e.preventDefault();
+  if(text.value=="")
+  {alert('Cannot post empty review');
+  return;}
+
+  div.innerHTML+=`<div class="review-card" id="new-review">
+  <i class="far fa-user-circle"></i>
+  <p>${text.value}</p>
+</div><br>`;
+  text.value="";
+})

@@ -169,6 +169,22 @@ span{
 #post:hover{
     background-color: #93B5C6;
 }
+#new-review p{
+    width:100%;
+}
+
+/* donation details */
+.donation-details{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:2rem;
+}
+.bank-detail{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+}
 /* contact */
 .contact{
     display:flex;
