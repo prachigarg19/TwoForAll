@@ -68,7 +68,7 @@ body{
     width:80vw;
     display:flex;
     flex-direction: column;
-
+    max-width:1300px;
 }
 .work-requirement{
     display:flex;
@@ -118,6 +118,7 @@ body{
     width:70vw;
     background-color:white;
     border-radius: 50px;
+    max-width:1000px;
 }
 .card-logo {
     flex-basis:20%;
@@ -143,4 +144,27 @@ body{
 }
 .fas:hover{
     color:#93B5C6;
+}
+
+/* responsiveness */
+@media(max-width:980px){
+    .cards{
+        flex-direction: column-reverse;
+    }
+    .card-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .card-details{
+        align-items: center;
+    }
+}
+@media (max-width:600px){
+    .input-group{
+        flex-direction: column;
+        width:80%;
+    }
+    .input-group textarea{
+        width:100%;
+    }
 }
