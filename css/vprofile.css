@@ -46,6 +46,11 @@ body{
 .nav-right{
     display:flex;
     gap:1rem;
+    display:flex;
+    align-self: flex-end;
+    align-items: center;
+    margin-right: 3em;
+    
 }
 #dashboard-back{
    width:9rem;

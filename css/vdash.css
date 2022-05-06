@@ -25,7 +25,12 @@ body{
     width:70px;
     margin:1rem 0 0 2rem;
 }
-
+.nav-right{
+    display:flex;
+   align-self: flex-end;
+   align-items: center;
+   margin-right: 3em;
+}   
 .sign-up{
     background-color: #93B5C6;
     border: 2px solid white;
@@ -36,7 +41,8 @@ body{
 }
 #login{
     margin: 1rem 2rem 0 0;
-    width:5em;
+    width:auto;
+    max-width: 15em;
     font-size:1.3rem;
 }
 .sign-up:hover{

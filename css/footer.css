@@ -2,11 +2,12 @@ button a{
     text-decoration:none;
     color:black;
 }
+
 /* footer */
 .footer-container{
     display:flex;
     justify-content: space-between;
-    margin-top:7rem;
+    margin-top: 5em;
     background-color: #526b77;
     align-items: center;
     font-family: 'Amatic SC', cursive;
