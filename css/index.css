@@ -29,11 +29,20 @@ body{
     margin:1rem 0 0 2rem;
 }
 .nav-right{
+    display: flex;  
+    align-items: center;
+    gap: 2em;
+    margin-right: 3em;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-right-button{
     display:flex;
    align-self: flex-end;
    align-items: center;
-   margin-right: 3em;
 }
+
 .sign-up{
     background-color: #93B5C6;
     border: 2px solid white;
@@ -190,6 +199,10 @@ button a{
     }
     .section-container-2{
         flex-direction: column-reverse;
+    }
+    .nav-right{
+        display: flex;
+        align-items: center;
     }
 }
 @media(max-width:470px){
