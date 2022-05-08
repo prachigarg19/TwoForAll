@@ -8,7 +8,8 @@
 Around us, there are many NGOs that work to shelter street animals. But the problem is a lack of awareness. The one who wants to volunteer does not know about such organizations. Therefore we need a platform that can connect such NGOs with volunteers.  Save Our Strays is a website that is created to make things smoother for NGOs as well as volunteers. Our aim is to make volunteering easy. We aim to bridge the gap between volunteers and NGOs. We solve the problem of volunteers by allowing users to navigate and filter NGOs with respect to area and choose shelter according to description, location, and timings. As an NGO, you can post requests and their requests will be shown to everyone ready to volunteer in their area and by helping them increase their social media presence.
 
 
-<br>Tech Stack used is<br> 
+<br><hr>
+  ## Tech Stack used is
 
  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
@@ -18,7 +19,9 @@ Around us, there are many NGOs that work to shelter street animals. But the prob
   
   ## Tools Used :
   <p>For chatbot : https://www.tidio.com/</p>
-  <p>For Language Translator : https://cloud.google.com/translate/?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-all-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_438601541965-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20%26%20ML%20~%20Cloud%20Translation_Translation-Detection-KWID_43700070280628196-aud-1644542956068%3Akwd-158650737&userloc_9061667-network_g&utm_term=KW_google%20translator&gclid=Cj0KCQjw1N2TBhCOARIsAGVHQc4Gm-hiZe4qb9fUTnbi66H2bnyLa_CHbqxNlEXQCI1X0uFXa8lbsZwaAjcdEALw_wcB&gclsrc=aw.ds</p>
+  <p>For Language Translator : https://cloud.google.com/translate</p>
+  
+  <hr>
   
   ## Demo
   Click [here](https://prachigarg19.github.io/TwoForAll/) to open web app
@@ -32,6 +35,8 @@ Around us, there are many NGOs that work to shelter street animals. But the prob
 - Edit/delete previous requests
 - Language translator
 - Automated chat bot
+
+<hr>
 
 ## Run Locally
 Clone the project
