@@ -96,6 +96,8 @@ Sign up as a voluntter/shelter-
 - Start fund raisers.
 - Option to advertise/promote fund raisers.
 
-- [@prachigarg19](https://github.com/prachigarg19)
+<br><hr>
+
+ [@prachigarg19](https://github.com/prachigarg19)
 
 
