@@ -100,7 +100,7 @@ Sign up as a voluntter/shelter-
 - Get notified on mail when a volunteer shows interest.
 - Follow NGO / shelter feature.
 - Start fund raisers.
-- Option to advertise/promote fund raisers.
+- Feature to advertise/promote fund raisers.
 
 <br><hr>
 
